@@ -11,9 +11,7 @@ npm run build . -t pomelo-app
 docker compose up
 ```
 
-This runs the server and the database in tandem.
-
-Next, navigate to http://localhost:3000/setup to setup the postgress db. You will see the following response: 
+This runs the server and the database in tandem. Next, navigate to http://localhost:3000/setup to setup the postgress db. You will see the following response: 
 
 ```json
 { "success": true }
