@@ -1,38 +1,16 @@
-# Welcome to Remix!
+# Hello!
 
-- [Remix Docs](https://remix.run/docs)
+- This readme will show you how to run this application locally.
 
-## Development
+## Run
 
-From your terminal:
-
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
+After you've cloned this repo, navigate to it's root directory. From your terminal:
 
 ```sh
-npm run build
+npm run build . -t pomelo-app
+docker compose up
 ```
 
-Then run the app in production mode:
+This runs the server and the database in tandem.
 
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+Next, navigate to http://localhost:3000/setup to setup the postgress db. You will see { success: true }. Finally, navigate to http://localhost:3000 and voila!
