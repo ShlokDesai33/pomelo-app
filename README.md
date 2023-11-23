@@ -13,4 +13,10 @@ docker compose up
 
 This runs the server and the database in tandem.
 
-Next, navigate to http://localhost:3000/setup to setup the postgress db. You will see { success: true }. Finally, navigate to http://localhost:3000 and voila!
+Next, navigate to http://localhost:3000/setup to setup the postgress db. You will see the following response: 
+
+```json
+{ success: true }
+```
+
+Finally, navigate to http://localhost:3000 and voila!
