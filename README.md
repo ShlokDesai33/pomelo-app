@@ -1,6 +1,6 @@
 # Hello!
 
-- This readme will show you how to run this application locally.
+This readme will show you how to run this application locally.
 
 ## Run
 
